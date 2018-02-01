@@ -31,11 +31,11 @@
             <div class="row">
               <div class="col-md-6">
                 <input type="text" class="form-control" placeholder="Starting Post Code" v-model="startingPCode">
-                <span class="Borough-span">{{startingBorough}}</span>
+                <span class="Borough-span" v-html="startingBorough"></span>
               </div>
               <div class="col-md-6">
                 <input type="text" class="form-control" placeholder="Ending Post Code" v-model="endingPCode">
-                <span class="borough-span">{{endingBorough}}</span>
+                <span class="borough-span" v-html="endingBorough"></span>
               </div>
             </div>
             <div class="row">
